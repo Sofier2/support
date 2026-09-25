@@ -1,151 +1,293 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="icon" type="image/png" href="assets/img/favicon.png">
-   <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
     <header class="header-container">
-        <img src="assets/img/logo.png" class="logo" alt="Логотип"/>
+
+        <!-- Логотип → на головну -->
+        <a href="#home">
+            <img src="assets/img/logo.png" class="logo" alt="Логотип">
+        </a>
+
         <ul class="menu-list">
-                <li class="menu-item">Контакти</li>
-                <li class="menu-item">Головна</li>
-                <li class="menu-item">З чим ми допомагаємо</li>
-                <li class="menu-item blue-button">Підтримати фонд</li>
+
+            <!-- Контакти → footer -->
+            <li class="menu-item">
+                <a href="#contacts">Контакти</a>
+            </li>
+
+            <!-- Головна → перший екран -->
+            <li class="menu-item">
+                <a href="#home">Головна</a>
+            </li>
+
+            <!-- З чим ми допомагаємо → блок допомоги -->
+            <li class="menu-item">
+                <a href="#help">З чим ми допомагаємо</a>
+            </li>
+
+            <!-- Підтримати фонд → блок підтримки -->
+            <li class="menu-item blue-button">
+                <a href="#support">Підтримати фонд</a>
+            </li>
+
         </ul>
     </header>
-    <section class="first-screen">
+
+
+    <!-- ГОЛОВНА -->
+    <section class="first-screen" id="home">
+
         <article class="first-screen-container">
-            <h1 class="main-title">Фонд <br>підтримки постраждалих від війни</h1>
-            <h3 class="main-description">Ми хочемо допомогти кожному, хто постраждав під час війни</h3>
-            <button class="blue-button white-button">Підтримати фонд</button>
-        </article>
-        
-    </section>
-    <section class="description-screen">
-          <article class="description-title">
-        <h2>
-            МИ – ФОНД ПІДТРИМКИ<br>
-            ПОСТРАЖДАЛИХ ВІД ВІЙНИ
-        </h2>
 
-        <p>
-            Наша мета – психологічна та гуманітарна допомога українцям
-        </p>
+            <h1 class="main-title">
+                Фонд <br>
+                підтримки постраждалих від війни
+            </h1>
 
-        <span>
-            Кожен, хто звернеться, отримає допомогу, яка у наших силах
-        </span>
-    </article>
-        
-        <article class="description-block">
-            <h3 class="desc-header">Реабілітаційний<br> центр</h3>
-            <p class="desc-text">Ми допомагаємо людям, які постраждали знайти правильне лікування. У нашому фонді є чотири напрями: фізичної та реабілітаційної медицини, терапевтичне, неврологічне та хірургічне. Ми маємо заклади-партнери, де швидко та якісно можуть надати допомогу.</p>
-            <img src="assets/img/center.png" alt="Реабілітація постраждалих" />
+            <h3 class="main-description">
+                Ми хочемо допомогти кожному, хто постраждав під час війни
+            </h3>
+
+            <a href="#support" class="blue-button white-button">
+                Підтримати фонд
+            </a>
+
         </article>
-        <article class="description-block">
-            <h3 class="desc-header">Робота з дітьми</h3>
-            <p class="desc-text">Діти – найвразливіша частина суспільства, і їм особливо потрібна підтримка дорослих. Тому наш фонд збирає речі для дітей, проводить літні й зимові табори, майстер-класи та за потреби – дитячих прсихотерапевтів.</p>
-            <img src="assets/img/work_children.png" alt="Робота з дітьми" />
-        </article>
-        <button class="blue-button">Дізнатися більше</button>
+
     </section>
 
-<section class="mission-screen">
-    <div class="mission-block">
-        <p>
-            Наша місія – щоб кожен українець мав<br>
-            можливість отримати допомогу й не<br>
-            залишився наодинці зі своїми<br>
-            проблемами
-        </p>
 
-        <img src="assets/img/kids.png" alt="Діти" class="kids">
-    </div>
-</section>
+    <!-- З ЧИМ МИ ДОПОМАГАЄМО -->
+    <section class="description-screen" id="help">
 
-<section class="support-screen">
-    <h2>ПІДТРИМАЙТЕ НАШУ РОБОТУ!</h2>
+        <article class="description-title">
 
-    <p class="support-description">
-        Усі ваші донати йдуть саме на роботу фонду, заробітні плати ми виплачуємо з коштів грантодавців
-    </p>
+            <h2>
+                МИ – ФОНД ПІДТРИМКИ<br>
+                ПОСТРАЖДАЛИХ ВІД ВІЙНИ
+            </h2>
 
-    <p class="support-goal">
-        Наша мета 10 000 000 гривень!
-    </p>
-
-    <div class="support-number">
-        <span>00</span>
-        <span>230</span>
-        <span>025</span>
-    </div>
-
-    <button class="blue-button">Дізнатися більше</button>
-</section>
-
-
-
-    <footer class="footer">
-    <div class="footer-top">
-        <h2 class="footer-title">КОНТАКТИ</h2>
-
-        <div class="footer-contacts">
-            <div class="contact-item">
-                <div class="contact-icon"><img src="assets/img/phone.png" alt="Телефон"></div>
-                <p>
-                    Якщо у вас виникають питання –<br>
-                    телефонуйте за номером<br>
-                    <strong>0-987-654-321</strong>
-                </p>
-            </div>
-
-            <div class="contact-item">
-                <div class="contact-icons">
-                    <img src="assets/img/telegram_logo.png" alt="Telegram">
-                    <img src="assets/img/whatsapp_logo.png" alt="WhatsApp">
-                </div>
-                <p>Або пишіть нам у чат-бот</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="subscribe-block">
-        <img 
-            src="assets/img/letter.png" 
-            class="email-image" 
-            alt="Підписка на розсилку"
-        >
-
-        <div class="subscribe-form">
-            <p class="subscribe-text">
-                Щоб дізнатися усі новини<br>
-                фестивалю, підпишіться на нашу<br>
-                розсилку
+            <p>
+                Наша мета – психологічна та гуманітарна допомога українцям
             </p>
 
-            <input 
-                type="text" 
-                class="subscribe-input" 
-                placeholder="Ім'я"
+            <span>
+                Кожен, хто звернеться, отримає допомогу, яка у наших силах
+            </span>
+
+        </article>
+
+
+        <article class="description-block">
+
+            <h3 class="desc-header">
+                Реабілітаційний<br>
+                центр
+            </h3>
+
+            <p class="desc-text">
+                Ми допомагаємо людям, які постраждали знайти правильне лікування.
+                У нашому фонді є чотири напрями: фізичної та реабілітаційної
+                медицини, терапевтичне, неврологічне та хірургічне.
+                Ми маємо заклади-партнери, де швидко та якісно можуть надати допомогу.
+            </p>
+
+            <img
+                src="assets/img/center.png"
+                alt="Реабілітація постраждалих"
             >
 
-            <input 
-                type="email" 
-                class="subscribe-input" 
-                placeholder="Емейл"
+        </article>
+
+
+        <article class="description-block">
+
+            <h3 class="desc-header">
+                Робота з дітьми
+            </h3>
+
+            <p class="desc-text">
+                Діти – найвразливіша частина суспільства, і їм особливо потрібна
+                підтримка дорослих. Тому наш фонд збирає речі для дітей,
+                проводить літні й зимові табори, майстер-класи та за потреби –
+                дитячих прсихотерапевтів.
+            </p>
+
+            <img
+                src="assets/img/work_children.png"
+                alt="Робота з дітьми"
             >
 
-            <button class="blue-button subscribe-button">
-                Підписатися
-            </button>
+        </article>
+
+
+        <a href="#support" class="blue-button">
+            Дізнатися більше
+        </a>
+
+    </section>
+
+
+    <!-- МІСІЯ -->
+    <section class="mission-screen">
+
+        <div class="mission-block">
+
+            <p>
+                Наша місія – щоб кожен українець мав<br>
+                можливість отримати допомогу й не<br>
+                залишився наодинці зі своїми<br>
+                проблемами
+            </p>
+
+            <img
+                src="assets/img/kids.png"
+                alt="Діти"
+                class="kids"
+            >
+
         </div>
-    </div>
-</footer>
+
+    </section>
+
+
+    <!-- ПІДТРИМКА -->
+    <section class="support-screen" id="support">
+
+        <h2>
+            ПІДТРИМАЙТЕ НАШУ РОБОТУ!
+        </h2>
+
+        <p class="support-description">
+            Усі ваші донати йдуть саме на роботу фонду,
+            заробітні плати ми виплачуємо з коштів грантодавців
+        </p>
+
+        <p class="support-goal">
+            Наша мета 10 000 000 гривень!
+        </p>
+
+        <div class="support-number">
+            <span>00</span>
+            <span>230</span>
+            <span>025</span>
+        </div>
+
+        <a href="#contacts" class="blue-button">
+            Дізнатися більше
+        </a>
+
+    </section>
+
+
+    <!-- КОНТАКТИ -->
+    <footer class="footer" id="contacts">
+
+        <div class="footer-top">
+
+            <h2 class="footer-title">
+                КОНТАКТИ
+            </h2>
+
+            <div class="footer-contacts">
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <img
+                            src="assets/img/phone.png"
+                            alt="Телефон"
+                        >
+                    </div>
+
+                    <p>
+                        Якщо у вас виникають питання –<br>
+                        телефонуйте за номером<br>
+                        <strong>0-987-654-321</strong>
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icons">
+
+                        <img
+                            src="assets/img/telegram_logo.png"
+                            alt="Telegram"
+                        >
+
+                        <img
+                            src="assets/img/whatsapp_logo.png"
+                            alt="WhatsApp"
+                        >
+
+                    </div>
+
+                    <p>
+                        Або пишіть нам у чат-бот
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="subscribe-block">
+
+            <img
+                src="assets/img/letter.png"
+                class="email-image"
+                alt="Підписка на розсилку"
+            >
+
+            <div class="subscribe-form">
+
+                <p class="subscribe-text">
+                    Щоб дізнатися усі новини<br>
+                    фестивалю, підпишіться на нашу<br>
+                    розсилку
+                </p>
+
+                <input
+                    type="text"
+                    class="subscribe-input"
+                    placeholder="Ім'я"
+                >
+
+                <input
+                    type="email"
+                    class="subscribe-input"
+                    placeholder="Емейл"
+                >
+
+                <button class="blue-button subscribe-button">
+                    Підписатися
+                </button>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
+```
